@@ -15,6 +15,8 @@
 		2B04172F2760794E0012CB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B04171C2760794E0012CB1E /* Assets.xcassets */; };
 		2B0417392760797B0012CB1E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0417382760797B0012CB1E /* CircleImage.swift */; };
 		2B04173A2760797B0012CB1E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0417382760797B0012CB1E /* CircleImage.swift */; };
+		2B04173C276079CE0012CB1E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04173B276079CE0012CB1E /* MapView.swift */; };
+		2B04173D276079CE0012CB1E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04173B276079CE0012CB1E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		2B0417272760794E0012CB1E /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0417292760794E0012CB1E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2B0417382760797B0012CB1E /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2B04173B276079CE0012CB1E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				2B04171A2760794B0012CB1E /* LandmarksApp.swift */,
 				2B04171B2760794B0012CB1E /* ContentView.swift */,
 				2B0417382760797B0012CB1E /* CircleImage.swift */,
+				2B04173B276079CE0012CB1E /* MapView.swift */,
 				2B04171C2760794E0012CB1E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -181,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B04172C2760794E0012CB1E /* ContentView.swift in Sources */,
+				2B04173C276079CE0012CB1E /* MapView.swift in Sources */,
 				2B04172A2760794E0012CB1E /* LandmarksApp.swift in Sources */,
 				2B0417392760797B0012CB1E /* CircleImage.swift in Sources */,
 			);
@@ -191,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B04172D2760794E0012CB1E /* ContentView.swift in Sources */,
+				2B04173D276079CE0012CB1E /* MapView.swift in Sources */,
 				2B04172B2760794E0012CB1E /* LandmarksApp.swift in Sources */,
 				2B04173A2760797B0012CB1E /* CircleImage.swift in Sources */,
 			);
@@ -331,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiyoung.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiyoung.ladn;
 				PRODUCT_NAME = Landmarks;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
